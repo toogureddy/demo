@@ -1,0 +1,62 @@
+Admin@Admin-PC MINGW64 /d/GITSERVER/yogirepo (master)
+$ git init
+Initialized empty Git repository in D:/GITSERVER/yogirepo/.git/
+
+Admin@Admin-PC MINGW64 /d/GITSERVER/yogirepo (master)
+$ git add .
+
+Admin@Admin-PC MINGW64 /d/GITSERVER/yogirepo (master)
+$ git commit -m "first commit"
+[master (root-commit) 8a1b968] first commit
+ 1 file changed, 4 insertions(+)
+ create mode 100644 sample.txt
+
+Admin@Admin-PC MINGW64 /d/GITSERVER/yogirepo (master)
+$ git commit -m "first commit"
+On branch master
+nothing to commit, working tree clean
+
+Admin@Admin-PC MINGW64 /d/GITSERVER/yogirepo (master)
+$ git --config
+unknown option: --config
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+Admin@Admin-PC MINGW64 /d/GITSERVER/yogirepo (master)
+$ git --v
+unknown option: --v
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+Admin@Admin-PC MINGW64 /d/GITSERVER/yogirepo (master)
+$ git config -add user.name "komalkumar"
+error: did you mean `--add` (with two dashes ?)
+
+Admin@Admin-PC MINGW64 /d/GITSERVER/yogirepo (master)
+$ git config --add user.name "komalkumar"
+
+Admin@Admin-PC MINGW64 /d/GITSERVER/yogirepo (master)
+$ git config --add user.email comalkumar@gmail.com
+
+Admin@Admin-PC MINGW64 /d/GITSERVER/yogirepo (master)
+$ git remote add origin https://github.com/komlkumar/yogi-ys.git
+
+Admin@Admin-PC MINGW64 /d/GITSERVER/yogirepo (master)
+$ git push -u origin master
+Username for 'https://github.com': comalkumar@gmail.com
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 229 bytes | 76.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/komlkumar/yogi-ys.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Admin@Admin-PC MINGW64 /d/GITSERVER/yogirepo (master)
+$ ^C
